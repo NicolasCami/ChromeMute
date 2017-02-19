@@ -2,70 +2,45 @@
 this.i18n = {
     "settings": {
         "en": "Settings",
-        "de": "Optionen"
+        "fr": "Paramètres"
     },
     "search": {
         "en": "Search",
-        "de": "Suche"
+        "fr": "Rechercher"
     },
     "nothing-found": {
         "en": "No matches were found.",
-        "de": "Keine Übereinstimmungen gefunden."
+        "fr": "Aucun résultat trouvé."
     },
-    
-    
-    
+
     "information": {
         "en": "Information",
-        "de": "Information"
+        "fr": "Informations"
     },
-    "login": {
-        "en": "Login",
-        "de": "Anmeldung"
+    "website": {
+        "en": "Website",
+        "fr": "Site internet"
     },
-    "username": {
-        "en": "Username:",
-        "de": "Benutzername:"
+    "urlPattern": {
+        "en": "URL Pattern",
+        "fr": "Schéma de l'URL"
     },
-    "password": {
-        "en": "Password:",
-        "de": "Passwort:"
+    "urlPatternPlaceholder": {
+        "en": "*://website.com/*",
+        "fr": "*://website.com/*"
     },
-    "x-characters": {
-        "en": "6 - 12 characters",
-        "de": "6 - 12 Zeichen"
+    "titleMutePattern": {
+        "en": "Mute if title contains",
+        "fr": "Muet si le titre contient"
     },
-    "x-characters-pw": {
-        "en": "10 - 18 characters",
-        "de": "10 - 18 Zeichen"
+    "titleMutePatternPlaceholder": {
+        "en": "Targeted title",
+        "fr": "Titre cible"
     },
-    "description": {
-        "en": "This is a description. You can write any text inside of this.<br>\
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut\
-        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores\
-        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem\
-        ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et\
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.\
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        
-        "de": "Das ist eine Beschreibung. Du kannst hier beliebigen Text einfügen.<br>\
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut\
-        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores\
-        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem\
-        ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et\
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.\
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-    },
-    "logout": {
-        "en": "Logout",
-        "de": "Abmeldung"
-    },
-    "enable": {
-        "en": "Enable",
-        "de": "Aktivieren"
-    },
-    "disconnect": {
-        "en": "Disconnect:",
-        "de": "Trennen:"
+    "descTitleMute": {
+        "en": "The tabs matching the given <strong>URL pattern</strong> will be muted if their\
+        page title contains the given <strong>string</strong>.",
+        "fr": "Les onglets correspondant au <strong>schéma d'URL</strong> donné seront muet\
+        si leur titre de page contient la <strong>chaine de caractères</strong> donnée."
     }
 };
