@@ -13,7 +13,7 @@ chrome.extension.onMessage.addListener(
   });
 
 var checkAds = function() {
-  chrome.tabs.query({title: 'Website', audible: true}, function(tabs) {
+  chrome.tabs.query({url: '*://website.com/*'}, function(tabs) {
       tabs.forEach(function(tab) {
           if(~tab.title.indexOf('Website - Website')) { // Targeted title
             if(!tab.mutedInfo.muted) {
